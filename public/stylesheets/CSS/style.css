@@ -1,0 +1,45 @@
+body {
+	background-color: #ffffff;
+}
+
+h1 {
+	text-align: left;
+	color: white;
+}
+
+.pink {
+	background-color: #FFE1CE ;
+}
+
+.pinkOscuro {
+	background-color: #FFB3B3 ;
+}
+
+.parrafoLetraPequeña {
+	font-size: large;
+	
+}
+
+.parrafoLetraGrande {
+	font-size: large;
+}
+
+.contenidoCentrado {
+	align-content: center;
+}
+
+.grid4 {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+.grid2 {
+	display:grid;
+	grid-template-columns: 20% 80%;
+	background-color: black;
+}
+
+.grid25050 {
+	display:grid;
+	grid-template-columns: 50% 50%;
+}

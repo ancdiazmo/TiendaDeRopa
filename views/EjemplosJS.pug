@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/Ensayos.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1></h1>
+
+    <form>
+        <!--        <input type="text" id="numero1">
+        <input type="text" id="numero2">
+
+        <input type="checkbox" name="" id="checkbox1"> opcion 1 <br>
+        <input type="checkbox" name="" id="checkbox1"> opcion 2 <br>
+        <input type="checkbox" name="" id="checkbox1"> opcion 3 <br>
+        <input type="checkbox" name="" id="checkbox1"> opcion 4 <br>
+
+        <input type="file" name="" id="Ingrese archivo"> <br>
+
+        <input type="range" name="" id="Rango"> <br>
+
+        <input type="date" name="" id=""> <br>
+
+        <input type="tel" name="" id=""> <br>
+
+        <textarea name="Ingresa un texto" id="" cols="100" rows="10"></textarea>
+
+        <input type="button" onclick="alert( suma() )" value="Sumar">
+        <input type="button" onclick="tablaMultplicaArray()" value="tablaDelCinco">
+        <input type="button" value="MostrarOpciones" onclick="mostrarCheck()">-->
+
+        <p>
+            hola 1
+        </p>
+
+        <p>
+            hola 2
+        </p>
+
+        <p>
+            hola 3
+        </p>
+
+    </form>
+</body>
+
+    <script>
+        var suma = function () {
+            let numero1 = document.getElementById("numero1").value;
+            let numero2 = document.getElementById("numero2").value;
+            return parseFloat(numero1) + parseFloat(numero2);
+        }
+
+        var tablaMultplicaArray = function () {
+            let tablaDelCinco = ["5", "10", "20", "30"];
+            for (let i = 0; i < tablaDelCinco.length; i++) {
+                const element = tablaDelCinco[i];
+                document.write(element + "<br>");
+            } 
+        }
+
+        var mostrarCheck = function () {
+            let elementos =  document.getElementById("checkbox1");
+            let stop = 1+1;
+        }
+
+        var ejemplosDOM = function () {
+            let etiquetasP = document.getElementsByTagName("p");
+            for (let i = 0; i < etiquetasP.length; i++) {
+                let element = etiquetasP[i];
+                document.write(element.value);
+            }
+        }
+    </script>
+</html>
